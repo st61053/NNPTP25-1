@@ -9,6 +9,7 @@
     <RootNamespace>NNPTPZ1</RootNamespace>
     <AssemblyName>NNPTPZ1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -46,6 +47,14 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Fractal\FractalConfig.cs" />
+    <Compile Include="Fractal\WorldMapper.cs" />
+    <Compile Include="Fractal\RootIdentifier.cs" />
+    <Compile Include="Fractal\ColorScheme.cs" />
+    <Compile Include="Fractal\FractalGenerator.cs" />
+    <Compile Include="Mathematics\ComplexNumber.cs" />
+    <Compile Include="Mathematics\Polynomial.cs" />
+    <Compile Include="Utils\BitmapHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
